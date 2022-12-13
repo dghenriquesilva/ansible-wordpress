@@ -1,0 +1,6 @@
+---
+- hosts: wordpress
+  roles:
+    - webserver
+    - wordpress
+    - mysql
